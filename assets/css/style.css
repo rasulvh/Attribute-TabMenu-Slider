@@ -1,0 +1,72 @@
+body {
+  background-color: grey;
+}
+
+.col-edit {
+  padding: 0;
+}
+
+.box {
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.box .left {
+  background-color: silver;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .left .content {
+  width: 407px;
+  height: 600px;
+}
+
+.box .left .content .item {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .left .content .item p {
+  height: 120px;
+  margin: 0;
+  font-size: 30px;
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .left .content .item i {
+  margin-left: 210px;
+  font-size: 25px;
+}
+
+.box .right {
+  background-color: white;
+  height: 600px;
+}
+
+.box .right .item {
+  padding: 30px;
+}
+
+.active-tab {
+  background-color: #e4e4e4;
+}
+/*# sourceMappingURL=style.css.map */
