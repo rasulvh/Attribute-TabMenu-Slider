@@ -1,0 +1,61 @@
+.head {
+  display: flex;
+  align-items: center;
+}
+.head h1 {
+  font-size: 25px;
+  color: rgb(0, 65, 92);
+}
+.head .icons {
+  margin-left: 30px;
+}
+.head .icons i {
+  margin-right: 10px;
+  font-size: 25px;
+  color: rgb(93, 172, 206);
+  cursor: pointer;
+}
+.head .icons .in-active {
+  opacity: 0.5 !important;
+  cursor: default;
+}
+
+.news-all {
+  width: 1315px;
+  height: 350px;
+  margin-top: 20px;
+  display: flex;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.news-all .news {
+  width: 223px;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.news-all .news .img {
+  width: 223px;
+  height: 200px;
+  border-radius: 10px;
+}
+.news-all .news .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+.news-all .news .content {
+  width: 100%;
+}
+.news-all .news .content span,
+.news-all .news .content p {
+  color: rgb(68, 116, 135);
+}
+.news-all .news .content p {
+  font-size: 17px;
+  padding-top: 20px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.news-all .news .content span {
+  font-size: 14px;
+}/*# sourceMappingURL=task2.css.map */
